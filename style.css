@@ -1,0 +1,54 @@
+body{
+    background:linear-gradient(to bottom, #68EACC , rgb(141, 177, 41));
+    height: auto;
+background-repeat: no-repeat;
+    width: auto;
+    min-height: 100vh;
+    min-width: 100vh;
+    
+}
+#text{
+    margin: 5px 8px 9px 7px;
+    border: black 2px solid;
+    width: 15%;
+    height: 10%;
+    border-radius: 5px;
+    justify-content: center;
+   
+    
+  
+}
+#email{
+    margin: 5px 8px 9px 7px;
+    border: black 2px solid;
+    width: 15%;
+    height: 10%;
+    border-radius: 5px;
+   
+}
+#comment{
+    margin: 5px 8px 9px 7px;
+    border: black 2px solid;
+    width: 20%;
+    height: 10%;
+    border-radius: 5px;
+   
+}
+
+button{
+    margin: 5px 8px 9px 7px;
+    border: black 2px solid;
+    width: 10%;
+    height: 10%;
+    border-radius: 5px;
+    color: black;
+    background: lightgoldenrodyellow;
+}
+
+.list{
+    border: black 2px solid;
+    display: block;
+    margin: 5px 6px 7px 8px ;
+    background-color: seashell;
+    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Comment</title>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyBVKcpvlYOsZMceYTzDlqJ7a4XWbF3RMiw",
+          authDomain: "practice-44aaa.firebaseapp.com",
+          databaseURL: "https://practice-44aaa-default-rtdb.firebaseio.com",
+          projectId: "practice-44aaa",
+          storageBucket: "practice-44aaa.appspot.com",
+          messagingSenderId: "34429619609",
+          appId: "1:34429619609:web:5e860d0f30ab09a5b45708",
+          measurementId: "G-RPNPKD5PPL"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      
+      </script>
+</head>
+<body>
+ 
+    <h1>Comment</h1>
+    <div id="list">
+Name:<input type="text" id="text" placeholder="Enter the  name" ><br>
+Email:<input type="text" id="email" placeholder="Enter the email" size="50"><br>
+<textarea name="comment" id="comment" cols="100" rows="5" placeholder="Write Comment" ></textarea>
+<br>
+<button onclick="send()" >SEND</button>
+</div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
